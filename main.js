@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 
+// 导入请求配置
+import "my_https.js"
+
+// 自己用到的一些小方法
+import "my_divMethods.js"
+
+// 关闭生产提示
 Vue.config.productionTip = false
 
 App.mpType = 'app'

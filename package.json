@@ -1,0 +1,23 @@
+{
+  "name": "uniapp01_project",
+  "version": "1.0.0",
+  "description": "小程序商城-学习\r **仅用作个人练手**",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinhemade/uni-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinhemade/uni-shop/issues"
+  },
+  "homepage": "https://github.com/yinhemade/uni-shop#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
