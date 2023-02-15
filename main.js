@@ -9,13 +9,17 @@ import "my_https.js"
 // 自己用到的一些小方法
 import "my_divMethods.js"
 
+// 1. 导入 store 的实例对象
+import store from './store/store.js'
+
 // 关闭生产提示
 Vue.config.productionTip = false
 
 App.mpType = 'app'
 
 const app = new Vue({
-    ...App
+    ...App,
+		store
 })
 app.$mount()
 // #endif
